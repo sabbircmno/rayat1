@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;;
+     margin: 0 auto;
+}
+.title h2{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    line-height: 42px;
+    font-weight :500px;
+    color:#000000;
+    position: relative;
+}
+.title h2::after{
+    content:'';
+    width: 40px;
+    height: 1px;
+    background: #D9832E;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.title p{
+font-size: 14px;
+font-family: "Poppins", sans-serif;
+line-height: 22px;
+font-weight :300p;
+color:#000000;
+margin-top: 15px;
+}
+/*=============== nav pert start ===========*/
+.nav-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+nav{
+    margin-top: 22px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 60px;
+}
+nav ul li a:hover{
+    color:#F2B86B ;
+}
+/*================ nav pert end =============*/
+/*================ banner pert start ========*/
+#banner{
+    padding:45px  0 73px;
+}
+.banner-left{
+    width:50%;
+}
+.banner-right{
+    width: 50;
+}
+#banner .banner-wrapper{
+    display: flex;
+    align-items:center;
+}
+#banner .banner-left h4{
+    font-size: 21px;
+    font-family:  "Poppins", sans-serif;
+    font-weight:500 ;
+    line-height: 38.5px;
+    color:#090A0C;
+}
+#banner .banner-left h1{
+    font-size: 60px;
+    font-family:  "Poppins", sans-serif;
+    font-weight:600 ;
+    line-height: 60px;
+    color:#090A0C;
+}
+#banner .banner-left h5{
+    font-size: 18px;
+    font-family:  "Poppins", sans-serif;
+    font-weight:400 ;
+    line-height:60px;
+    color:#090A0C;
+}
+#banner .banner-left p{
+    font-size: 15px;
+    font-family:  "Poppins", sans-serif;
+    font-weight:400 ;
+    line-height:24px;
+    color:#090A0C;
+    margin-bottom: 43px;
+}
+#banner .banner-left a{
+    font-size: 14px;
+    font-family:  "Poppins", sans-serif;
+    font-weight:500 ;
+    line-height:22px;
+    color:#FFFFFF;
+    background:#D9832E ;
+    text-decoration:none;
+    padding:14px 35px ;
+    display: inline-block;
+    border: 2px solid transparent;
+}
+.bannersecondbtn{
+    margin-left: 10px;
+}
+#banner .banner-left a:hover{
+    background: #ffffff;
+    color:#D9832E ;
+    border: 2px solid #D9832E;
+}
+/*================ banner pert end ========*/
+/* =============== about pert start ========= */
+#about{
+background:#EAEDF2;
+padding-top:48px;
+padding-bottom:70px ;
+}
+#about .title h2{
+font-size: 35px;
+font-family: "Poppins", sans-serif;
+line-height: 42px;
+font-weight :500px;
+color:#000000;
+position: relative;
+}
+#about .title h2::after{
+    content:'';
+    width: 40px;
+    height: 1px;
+    background: #D9832E;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#about .title p{
+font-size: 14px;
+font-family: "Poppins", sans-serif;
+line-height: 22px;
+font-weight :300p;
+color:#000000;
+}
+.about-main{
+    display: flex;
+    margin-top: 31px;
+}
+.about-main .img{
+    width: 35%;
+}
+.about-main .text{
+    width: 65%;
+    margin-top: 10px;
+}
+.about-main .text h3{
+font-size: 30px;
+font-family: "Poppins", sans-serif;
+line-height: 36px;
+font-weight :500;
+color:#000000;
+margin-bottom: 6px;
+}
+.about-main .text h4{
+font-size: 18px;
+font-family: "Poppins", sans-serif;
+line-height: 21.6px;
+font-weight :400;
+color:#090A0C;
+margin-bottom: 20px ;
+}
+.about-main .text h4 span{
+color:#D9832E;
+}
+.about-main .text p{
+font-size: 15px;
+font-family: "Poppins", sans-serif;
+line-height: 24px;
+font-weight :400p;
+color:#555A64;
+margin-bottom: 20px;
+}
+.text ul li{
+    list-style: none;
+    font-size:14px ;
+    line-height: 22px;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+    color:#000000 ;
+    position: relative;
+    margin-top: 10px;
+}
+.text ul li::after{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #555A64;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.text ul li span{
+    color:#555A64 ;
+     position: absolute;
+     top:0;
+     left: 110px;
+}
+.abouttextwapper{
+    display: flex;
+    margin-bottom:22px ;
+}
+.abouttextwapper ul{
+  width:50%;
+}
+.about-main .text a{
+    font-size:14px ;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #D9832E;
+    padding: 14px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+/* =============== about pert end ========= */
+/* ============== skills pert start ======= */
+#skills{
+  margin-top: 52px;  
+  margin-bottom: 70px;
+}
+.skillswrepper{
+   display:flex ;
+   margin-top:25px ;
+}
+#skills .left{ 
+    width: 50%;
+}
+.left .item {
+    margin-bottom: 20px ;
+}
+.itemwrepper{
+    display: flex;
+    justify-content: space-between;
+    width: 415px; 
+
+    
+}
+.itemwrepper h3{
+    font-size: 16px;
+    font-family: "Poppins",sans-serif ;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+.itemwrepper .itempercent{
+    margin-right: 50px;
+}
+#skills .right {
+    width:50%;
+    text-align: end;
+}
+.right .skillsitemwrepper {
+    display: flex;
+    flex-wrap: wrap;
+    gap:26px ;
+
+}
+.right .skillsitem{
+    width: 40%;
+    border-radius:10px ;
+    border: 1px solid #D9832E;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    display: inline-block;
+    margin: 20px;
+}
+/* ============== skills pert end ======== */
+/* ============== service pert start ======== */
+#service{
+    background:#EAEDF2;
+    padding:64px; ;
+}
+.serviceitemwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 50px;
+}
+.serviceitem{
+ padding: 31px 41px;
+ background-color: #FFFFFF;
+ align-items: center;
+ width: 31%;
+
+}
+.serviceitem h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+    line-height: 19.2px;
+    color: #000000;
+    margin-top: 15px;
+}
+.serviceitem p{
+    font-size: 15px;
+    font-weight:400;
+    font-family: "Poppins",sans-serif;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 18px;
+}
+
+/* ============== service pert end ======== */
+/* ============== works pert start ======== */
+#works{
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+.worksitemwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 26px;
+}
+/* ============== works pert end ======== */
